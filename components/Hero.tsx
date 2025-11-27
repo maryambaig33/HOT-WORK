@@ -18,26 +18,26 @@ const Hero: React.FC = () => {
       {/* Content */}
       <div className="relative z-10 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-20">
         <div className="max-w-3xl">
-          <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm px-4 py-1 rounded-full mb-6 border border-white/20">
+          <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm px-4 py-1 rounded-full mb-6 border border-white/20 shadow-lg">
             <div className="w-2 h-2 rounded-full bg-hotOrange animate-pulse"></div>
-            <span className="text-sm font-medium tracking-wider uppercase">Open 24 Hours • Katy Green, Houston</span>
+            <span className="text-sm font-medium tracking-wider uppercase">Houston (Katy Green) • Open 24/7</span>
           </div>
           
-          <h1 className="text-6xl md:text-8xl font-display font-bold uppercase leading-[0.9] italic mb-6">
+          <h1 className="text-6xl md:text-8xl font-display font-bold uppercase leading-[0.9] italic mb-6 drop-shadow-2xl">
             More Workout <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-hotOrange to-yellow-500">Less Time</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-hotOrange to-yellow-500 drop-shadow-sm">Less Time</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-xl font-light">
-            Experience the power of 3D Training: <br/>
+          <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-xl font-light drop-shadow-md">
+            Discover 3D Training in Houston: <br/>
             <strong className="text-white">Heat + Infrared Energy + Exercise</strong>.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <button className="bg-hotOrange hover:bg-orange-600 text-white px-8 py-4 rounded-sm font-bold font-display text-xl uppercase tracking-widest skew-x-[-10deg] transition-all hover:scale-105">
+            <button className="bg-hotOrange hover:bg-orange-600 text-white px-8 py-4 rounded-sm font-bold font-display text-xl uppercase tracking-widest skew-x-[-10deg] transition-all hover:scale-105 shadow-lg shadow-orange-900/20">
               <span className="block skew-x-[10deg]">Start for Free</span>
             </button>
-            <button className="flex items-center justify-center space-x-3 px-8 py-4 border border-white/30 hover:bg-white/10 rounded-sm font-bold font-display text-xl uppercase tracking-widest skew-x-[-10deg] transition-all">
+            <button className="flex items-center justify-center space-x-3 px-8 py-4 border border-white/30 hover:bg-white/10 rounded-sm font-bold font-display text-xl uppercase tracking-widest skew-x-[-10deg] transition-all backdrop-blur-sm">
               <span className="flex items-center skew-x-[10deg]">
                 <PlayCircle className="mr-2" /> Watch Tour
               </span>

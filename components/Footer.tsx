@@ -28,15 +28,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-gray-400 text-sm">
               <li className="flex items-start">
                 <MapPin size={16} className="text-hotOrange mr-3 mt-1 flex-shrink-0" />
-                <span>1234 Katy Green Lane,<br/>Houston, TX 77094</span>
+                <span>11200 Katy Fwy Ste 600,<br/>Houston, TX 77043</span>
               </li>
               <li className="flex items-center">
                 <Phone size={16} className="text-hotOrange mr-3 flex-shrink-0" />
-                <span>(555) 123-4567</span>
+                <span>(832) 913-6330</span>
               </li>
               <li className="flex items-center">
                 <Mail size={16} className="text-hotOrange mr-3 flex-shrink-0" />
-                <span>katygreen@hotworx.net</span>
+                <span>manager.tx0099@hotworx.net</span>
               </li>
             </ul>
           </div>
@@ -57,9 +57,9 @@ const Footer: React.FC = () => {
           <div>
              <h4 className="text-white font-display uppercase tracking-widest mb-6">Staffed Hours</h4>
              <ul className="space-y-2 text-gray-400 text-sm">
-               <li className="flex justify-between"><span>Mon - Thu:</span> <span className="text-white">11am - 8pm</span></li>
-               <li className="flex justify-between"><span>Fri:</span> <span className="text-white">9am - 6pm</span></li>
-               <li className="flex justify-between"><span>Sat:</span> <span className="text-white">11am - 4pm</span></li>
+               <li className="flex justify-between"><span>Mon - Thu:</span> <span className="text-white">11:00 AM - 8:00 PM</span></li>
+               <li className="flex justify-between"><span>Fri:</span> <span className="text-white">9:00 AM - 6:00 PM</span></li>
+               <li className="flex justify-between"><span>Sat:</span> <span className="text-white">11:00 AM - 4:00 PM</span></li>
                <li className="flex justify-between"><span>Sun:</span> <span className="text-white">Closed</span></li>
              </ul>
              <div className="mt-4 pt-4 border-t border-white/10">
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-600 text-xs text-center md:text-left">
-            © 2024 HOTWORX Houston Katy Green. All rights reserved. <br className="md:hidden"/>
+            © 2024 HOTWORX Houston (Katy Green). All rights reserved. <br className="md:hidden"/>
             Independent Franchisee Owned and Operated.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0 text-xs text-gray-600">
